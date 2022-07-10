@@ -1,0 +1,51 @@
+# Main site info
+author: Oliver King
+url: "https://www.ollyking.com"
+site_name: Olly King
+site_description: research software engineer, scientist, wannabe photographer
+brand: OLLY KING
+language: en
+keywords: 'science, software, photography'
+repository: OllyK/nene_website
+repository_branch: main
+favicon: images/favicon.png
+thumbnail: images/thumbnail/default.png
+license_notice: |
+  Except where otherwise noted, all content is licensed
+  <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.
+
+# Social media
+twitter: _OllyK
+github: OllyK
+instagram: olly.king
+linkedin: https://uk.linkedin.com/in/oliverking2
+orcid: 0000-0002-6152-7207
+researchgate: https://www.researchgate.net/profile/Oliver-King-10
+googlescholar: https://scholar.google.co.uk/citations?user=V6CP6QIAAAAJ&hl=en
+
+# Menu
+navigation:
+  - name: Home
+    id: index
+  # - name: About
+  #   id: about/index
+  # - name: Blog
+  #   id: blog/index
+  # - name: Publications
+  #   id: publications/index
+  # - name: Presentations
+  #   id: presentations/index
+  # - name: Teaching
+  #   id: teaching/index
+  # - name: Software
+  #   id: software/index
+  # - name: Contact
+  #   id: contact/index
+
+# Don't copy or process these files
+ignore:
+  - README.md
+  - LICENSE.md
+  - environment.yml
+  - Makefile
+  - css/academicons/README.md
