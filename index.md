@@ -32,7 +32,6 @@ template: base.html
 </div>
 
 <a class="btn btn-primary mt-3 me-2" href="/about">Longer version <i class="far fa-arrow-alt-circle-right ms-1" aria-hidden="true"></i></a>
-<a class="btn btn-light mt-3 me-2" href="/contact">Contact me <i class="fa fa-envelope ms-1" aria-hidden="true"></i></a>
 
 
 [dls-link]: https://www.diamond.ac.uk
