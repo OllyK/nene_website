@@ -9,7 +9,7 @@ keywords: 'science, software, photography'
 repository: OllyK/nene_website
 repository_branch: main
 favicon: images/favicon.png
-thumbnail: images/thumbnail/default.png
+thumbnail: images/thumbnail/kepler_cropthumb.png
 license_notice: |
   Except where otherwise noted, all content is licensed
   <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a>.
