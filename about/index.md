@@ -46,7 +46,7 @@ facility users. One of the main areas is [segmentation][segment] of 3-dimensiona
   Thesis: {{ item.title|trim }}
 </p>
 <p class="mb-1 text-muted fs-6">
-  Advisor: {{ item.advisor }}
+  Supervisor: {{ item.advisor }}
 </p>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
     data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ id }}"

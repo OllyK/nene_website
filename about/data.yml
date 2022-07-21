@@ -12,14 +12,15 @@ education:
     year: 2016
     notes: |
       <p>
-      After several years working in the lab on insecure, fixed-term, academic contracts 
+      After several years working in the laboratory on insecure, fixed-term, academic contracts 
       I decided to take the plunge and change career. Having taught myself how to program in Python 
       I left my job and enrolled in a Computer Science course in order to learn the fundamentals 
       and gain more relevant experience.
       </p>
       <p>
       Courses taken included: Programming in C and Java, Computer Architecture, Web Technologies and Databases.
-      My research project used texture analysis in combination with machine learning (clustering, random forests) to 
+      For my research project I set up a collaboration with a lab that I'd worked in previously. 
+      The project used texture analysis in combination with machine learning (clustering, random forests) to 
       detect crystals in microscope images. Work was done in collaboration with the Structural Genomics Consortium, 
       University of Oxford and iXpressGenes Ltd., Huntsville, Alabama.
       </p>
@@ -83,3 +84,90 @@ education:
         detection
         </li>
       </ul>
+
+  - level: DPhil in Materials Science
+    institution: University of Oxford, UK
+    title: |
+      Studies on the Electrodeposition of Calcium Phosphate Coatings for Orthopaedic 
+      Applications and the Potential Incorporation of Apatite-Coated Liposomes
+    advisor: Jan T. Czernuszka
+    year: 2006
+    notes: |
+      <p>
+      I was awarded funding by the Engineering and Physical Sciences Research Council for this independent 
+      research project to develop novel, improved coatings for orthopaedic implants with drug-delivery capability. 
+      Analysis techniques that I used included scanning and transmission electron microscopy, electron diffraction 
+      and X-ray powder diffraction crystallography.
+      </p>
+      <p>
+      When not in the lab, I spent time as the Chair of the departmental Joint Consultative Committee for Graduates 
+      and was the Social Secretary of St. Catherine's College Middle Common where I helped to organise parties and 
+      events for hundreds of graduate students. In addition I sat on the college IT committee and worked as a college 
+      porter and in a student IT support role. 
+      </p>
+    abstract: |
+      <p>
+      A low temperature electrodeposition technique has been used to
+      coat metal substrates with calcium phosphate (CaP) phases at
+      37&#8451; in aqueous solution buffered at <em>p</em>H 7.4.
+      Experiments have also been carried out on liposome vesicles, some
+      populations of which were coated in CaP, the final aim being to
+      combine the liposome vesicles with the coating methodology in
+      order to produce composite coatings with a drug delivery
+      capability.
+      </p>
+      <p>
+      Factors relating to the coating procedure that were altered
+      included: the initial coating solution concentration, the drying
+      method and the time for which the samples were allowed to remain
+      in solution (maturation). The effects upon the coatings were
+      studied using X-ray diffraction (XRD), low voltage-scanning
+      electron microscopy (LV-SEM), transmission electron microscopy
+      (TEM), electron diffraction and measurement of coating shear
+      strengths.
+      </p>
+      <p>
+      LV-SEM revealed that one hour or more of maturation time in
+      solution, after one electrodeposition coating cycle, led to a
+      dramatic change in coating morphology from a thin particulate
+      coating, to one with a coherent structure of interconnected
+      crystallites. The initial coating cycle allowed the formation of a
+      thin amorphous layer of CaP, which then acts as a seeding site for
+      subsequent coating growth. TEM and electron diffraction of
+      coatings revealed that the coating crystallinity increased with
+      maturation time. The coating was determined to be hydroxyapatite
+      (HAp) with a preferred orientation of crystallites with their
+      <em>c</em>-axis perpendicular to the substrate that became more
+      pronounced with increased maturation time.
+      </p>
+      <p>
+      Critical point drying (CPD) appeared to protect the structure of
+      the coatings when compared to air drying. Shear strengths were
+      modulated by alterations in maturation time. Penetration of the
+      coating structure by epoxy resin during the testing procedure may
+      have been a problem.
+      </p>
+      <p>
+      The results of these studies show that the treatment of the
+      initial calcium phosphate layer deposited onto a metal substrate
+      during coating has profound implications for coating structure and
+      strength.
+      </p>
+      <p>
+      Lipid vesicles, manufactured from egg phosphatidylcholine (EPC)
+      containing 30 mol &percnt; cholesterol and 4 mol &percnt; &alpha;-tocopherol,
+      were characterised in terms of entrapment efficiency and release
+      of both the marker molecule calcein and the antibiotic gentamicin.
+      A higher percentage release of calcein was measured from
+      CaP-coated liposomes when compared to uncoated vesicles when
+      incubated for periods in excess of 70 h at 37&#8451;,
+      indicating that CaP ultimately increased the permeability of the
+      liposomal membranes.
+      </p>
+      <p>
+      Addition of CaP-coated liposomes to coating solutions, during the
+      electrodeposition of calcium phosphate, was found to moderate the
+      decrease in HAp and octacalcium phosphate supersaturation that was
+      normally seen in their absence. Composite coatings, incorporating
+      liposomes that contained calcein were also manufactured.
+      </p>
