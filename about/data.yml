@@ -15,7 +15,9 @@ education:
       After several years working in the lab on insecure, fixed-term, academic contracts 
       I decided to take the plunge and change career. Having taught myself how to program in Python 
       I left my job and enrolled in a Computer Science course in order to learn the fundamentals 
-      and gain more relevant experience.  
+      and gain more relevant experience.
+      </p>
+      <p>
       Courses taken included: Programming in C and Java, Computer Architecture, Web Technologies and Databases.
       My research project used texture analysis in combination with machine learning (clustering, random forests) to 
       detect crystals in microscope images. Work was done in collaboration with the Structural Genomics Consortium, 
@@ -37,25 +39,47 @@ education:
       new tools to the experimenter that have the potential to improve their chances of successfully growing or
       identifying a crystal of a given protein.
       In particular, the project includes:
-      - methodology to find a set of chemical cocktail conditions that can be used as a tool to improve the
-      solubility of sparingly soluble proteins (a limiting factor in obtaining crystals)
-      - a ‘virtual’ experiment to evaluate the potential usefulness of the solubility tool
-      - adaptation of image processing and machine learning methods to allow TeXRank to use microscope
-      images, captured under green light, of experiments containing protein labelled with a fluorescent
-      dye
-      - an evaluation of the usefulness of the novel combination of texture analysis with fluorescence
-      labelling, both in comparison to standard imaging and to studies in the literature.
+      <ul>
+        <li>
+        methodology to find a set of chemical cocktail conditions that can be used as a tool to improve the
+        solubility of sparingly soluble proteins (a limiting factor in obtaining crystals)
+        </li>
+        <li>
+        a ‘virtual’ experiment to evaluate the potential usefulness of the solubility tool
+        </li>
+        <li>
+        adaptation of image processing and machine learning methods to allow TeXRank to use microscope
+        images, captured under green light, of experiments containing protein labelled with a fluorescent
+        dye
+        </li>
+        <li>
+        an evaluation of the usefulness of the novel combination of texture analysis with fluorescence
+        labelling, both in comparison to standard imaging and to studies in the literature.
+        </li>
+      </ul>
       The main outcomes of this project were:
-      - a set of 48 chemical cocktail conditions, selected through mining the results of image analysis on
-      real experimental data and found to be significantly better as solubility tool than a random set of
-      conditions (p < 0.05)
-      - adaptations to the TeXRank processing pipeline and the training of a new classifier that allows the
-      ranking of images from experiments containing fluorescent labelled protein
-      - a comparison of ranking performance between pairs of images taken of the same experiments,
-      proving that the use of fluorescence in combination with texture analysis is better than texture
-      analysis alone
-      - the fluorescence classifier created in this project also has superior ranking characteristics (area
-      under receiver operating characteristic curve) to the current classifier used by TeXRank
-      - comparison to the research literature determined that texton analysis was more accurate at detecting
-      fluorescent protein crystals than a recent study that utilised image thresholding followed by edge
-      detection
+      <ul>
+        <li>
+        a set of 48 chemical cocktail conditions, selected through mining the results of image analysis on
+        real experimental data and found to be significantly better as solubility tool than a random set of
+        conditions (p < 0.05)
+        </li>
+        <li>
+        adaptations to the TeXRank processing pipeline and the training of a new classifier that allows the
+        ranking of images from experiments containing fluorescent labelled protein
+        </li>
+        <li>
+        a comparison of ranking performance between pairs of images taken of the same experiments,
+        proving that the use of fluorescence in combination with texture analysis is better than texture
+        analysis alone
+        </li>
+        <li>
+        the fluorescence classifier created in this project also has superior ranking characteristics (area
+        under receiver operating characteristic curve) to the current classifier used by TeXRank
+        </li>
+        <li>
+        comparison to the research literature determined that texton analysis was more accurate at detecting
+        fluorescent protein crystals than a recent study that utilised image thresholding followed by edge
+        detection
+        </li>
+      </ul>
