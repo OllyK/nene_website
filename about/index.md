@@ -23,7 +23,7 @@ to create tools that help scientists who work at Diamond as well as those who vi
 facility users. One of the main areas is [segmentation][segment] of 3-dimensional image data such as that produced by [X-ray computed tomography][xray-ct] (XCT), [electron cryo-tomography][ect] (cryoET) or [serial block-face scanning electron microscopy][sbf] (SBF-SEM). In addition, I have created deep learning tools that aid scientists who are performing experiments where they aim to grow protein crystals. For example, detecting the location of these crystals is the first step in collecting in-situ data on a fully automated macromolecular crystallography (MX) beamline at Diamond, known as [VMXi][vmxi-link].
 
 
-<!-- <section class="mb-5">
+<section class="mb-5">
 
 ## Education
 
@@ -48,17 +48,14 @@ facility users. One of the main areas is [segmentation][segment] of 3-dimensiona
 <p class="mb-1 text-muted fs-6">
   Advisor: {{ item.advisor }}
 </p>
-<p class="text-muted fs-6">
-  doi:<a href="https://doi.org/{{ item.doi }}">{{ item.doi }}</a>
-</p>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
     data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ id }}"
     aria-expanded="false" aria-controls="collapse-abstract-{{ id }}">
   Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
-{{ macros.button_link("https://doi.org/" ~ item.doi, "PDF", type="btn-primary", icon="fa fa-file-pdf") }}
-{{ macros.button_link("https://github.com/" ~ item.github, "Code", type="btn-light", icon="fab fa-github") }}
-{{ macros.button_link(item.slides, "Slides", type="btn-light", icon="fa fa-desktop") }}
+{%- if item.pdf is defined %}
+  {{ macros.button_link("../pdf/" ~ item.pdf, "PDF", type="btn-primary", icon="fa fa-file-pdf") }}
+{%- endif %}
 <div id="collapse-abstract-{{ id }}" class="collapse paper-info mt-2 overflow-hidden">
   <h3 class="">About</h3>
   {{ item.notes }}
@@ -69,7 +66,7 @@ facility users. One of the main areas is [segmentation][segment] of 3-dimensiona
 
 {% endfor %}
 
-</section> -->
+</section>
 
 
 [dls-link]: https://www.diamond.ac.uk
