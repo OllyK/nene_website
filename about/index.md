@@ -46,7 +46,7 @@ facility users. One of the main areas is [segmentation][segment] of 3-dimensiona
   Thesis: {{ item.title|trim }}
 </p>
 <p class="mb-1 text-muted fs-6">
-  Supervisor: {{ item.advisor }}
+  Supervisors: {{ item.advisor }}
 </p>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
     data-bs-toggle="collapse" data-bs-target="#collapse-abstract-{{ id }}"
@@ -59,8 +59,10 @@ facility users. One of the main areas is [segmentation][segment] of 3-dimensiona
 <div id="collapse-abstract-{{ id }}" class="collapse paper-info mt-2 overflow-hidden">
   <h3 class="">About</h3>
   {{ item.notes }}
+{%- if item.abstract is defined %}
   <h3 class="">Abstract</h3>
   <p>{{ item.abstract|trim }}</p>
+{%- endif %}
 </div>
 </div>
 
