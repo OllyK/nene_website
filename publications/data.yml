@@ -63,7 +63,6 @@ structures:
       members:
         - hugo: GAK
           members:
-                - 3LL6
                 - 4O38
         - hugo: VRK1
           members:
@@ -72,7 +71,7 @@ structures:
       members:
         - hugo: HIBCH
           members:
-                - 3PBT
+                - 3BPT
         - hugo: CA13
           members:
                 - 3DA2
@@ -81,4 +80,4 @@ structures:
                 - 2W2J
         - hugo: RECQL
           members:
-                - 2VX1
+                - 2V1X
