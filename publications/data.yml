@@ -1,0 +1,84 @@
+thumbnail: images/thumbnail/publications.png
+
+structures:
+    - class: Oxygenases
+      members:
+        - hugo: KDM4A
+          members:
+                - 3NJY
+                - 3PDQ
+                - 3RVH
+                - 4GD4
+        - hugo: HIF1AN
+          members:
+                - 3OD4
+                - 4AI8
+    - class: Phosphatases
+      members:
+        - hugo: PTPN11
+          members:
+                - 3B7O
+        - hugo: PTPRN2
+          members:
+                - 2QEP
+        - hugo: PTPN22
+          members:
+                - 2P6X
+        - hugo: PTPRE
+          members:
+                - 2JJD
+    - class: Kinases
+      members:
+        - hugo: TTK
+          members:
+                - 3CEK
+                - 3GFW
+                - 3H9F
+        - hugo: TWF2
+          members:
+                - 2VAC
+        - hugo: HASPIN
+          members:
+                - 2VUW
+        - hugo: CAMK2A
+          members:
+                - 2VZ6
+    - class:  None
+      members:
+        - hugo: CLK3
+          members:
+                - 2WU6
+                - 2WU7
+                - 3RAW
+        - hugo: DYRK1A
+          members:
+                - 2VX3
+        - hugo: RPS6KA1
+          members:
+                - 2WNT
+        - hugo: CDPK1
+          members:
+                - 2WEI
+    - class:  None
+      members:
+        - hugo: GAK
+          members:
+                - 3LL6
+                - 4O38
+        - hugo: VRK1
+          members:
+                - 3OP5
+    - class:  Other
+      members:
+        - hugo: HIBCH
+          members:
+                - 3PBT
+        - hugo: CA13
+          members:
+                - 3DA2
+        - hugo: CA8
+          members:
+                - 2W2J
+        - hugo: RECQL
+          members:
+                - 2VX1
