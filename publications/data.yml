@@ -82,3 +82,17 @@ structures:
         - hugo: RECQL
           members:
                 - 2V1X
+
+
+papers:
+
+  - title: Large Scale Structural Analysis of the Classical Human Protein Tyrosine Phosphatome
+    year: 2009
+    doi: 10.1016/j.cell.2008.11.038
+    authors: Barr AJ, Ugochukwu E, Lee WH, King ON, Filippakopoulos P, Alfano I, Savitsky P, Burgess-Brown NA, Müller S and Knapp S.
+    journal: Cell
+    openaccess: true
+    abstract: |
+      Protein tyrosine phosphatases (PTPs) play a critical role in regulating cellular functions by selectively dephosphorylating their substrates. Here we present 22 human PTP crystal structures that, together with prior structural knowledge, enable a comprehensive analysis of the classical PTP family. Despite their largely conserved fold, surface properties of PTPs are strikingly diverse. A potential secondary substrate-binding pocket is frequently found in phosphatases, and this has implications for both substrate recognition and development of selective inhibitors. Structural comparison identified four diverse catalytic loop (WPD) conformations and suggested a mechanism for loop closure. Enzymatic assays revealed vast differences in PTP catalytic activity and identified PTPD1, PTPD2, and HDPTP as catalytically inert protein phosphatases. We propose a “head-to-toe” dimerization model for RPTPγ/ζ that is distinct from the “inhibitory wedge” model and that provides a molecular basis for inhibitory regulation. This phosphatome resource gives an expanded insight into intrafamily PTP diversity, catalytic activity, substrate recognition, and autoregulatory self-association.
+    citation: |
+      Barr AJ, Ugochukwu E, Lee WH, King ON, Filippakopoulos P, Alfano I, Savitsky P, Burgess-Brown NA, Müller S, Knapp S. Large-scale structural analysis of the classical human protein tyrosine phosphatome. Cell. 2009 Jan 23;136(2):352-63. doi: 10.1016/j.cell.2008.11.038.

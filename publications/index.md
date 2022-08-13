@@ -19,7 +19,7 @@ Protein Structures in the RCSB Protein Data Bank
     Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
 <div id="collapse-1" class="collapse mt-2 overflow-hidden">
-<p> These are the novel protein structures that I've contributed to doing one or a combination of these things: expressing, purifying, crystallising, finding ligands for co-crystallisation, collecting data on or solving and refining the structure.
+<p> These are the novel protein structures that I've contributed to through doing one or a combination of these things: expressing, purifying, crystallising, finding ligands for co-crystallisation, collecting data or solving and refining the structure.
 </p>
  
  <table>
@@ -65,13 +65,19 @@ Protein Structures in the RCSB Protein Data Bank
 </table>
 </div>
 
-<div class="callout callout-note mb-5">
+<h2 class="mb-4">
+Research Papers
+</h2>
+<button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
+      data-bs-toggle="collapse" data-bs-target="#collapse-2"
+      aria-expanded="false" aria-controls="collapse-1">
+    Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
+</button>
+<div id="collapse-2" class="collapse mt-2 overflow-hidden">
 
-For citation information, see
-[Google Scholar]({{ config.googlescholar }}).
+<h4> This list, currently under construction, gives details of my contributions to published research papers. 
+</h4>
 
-</div>
-<!-- 
 {%- for paper in page.papers %}
   {%- set id = loop.index %}
   {%- if paper.doi is defined %}
@@ -132,10 +138,9 @@ For citation information, see
     <p>{{ paper.abstract|trim }}</p>
     <h3 class="fs-4">Cite as</h3>
     <blockquote class="mb-4">{{ paper.citation|trim }}</blockquote>
-    <h3 class="fs-4">BibTex</h3>
-    <pre class="mb-4"><code>{{ paper.bibtex|trim|escape }}</code></pre>
     <h3 class="fs-4 mb-4">Citations</h3>
     <span class="__dimensions_badge_embed__" data-doi="{{ doi }}"></span>
   </div>
 </div>
-{%- endfor %} -->
+{%- endfor %}
+</div>
