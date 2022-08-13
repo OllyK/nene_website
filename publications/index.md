@@ -70,7 +70,7 @@ Research Papers
 </h2>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#collapse-2"
-      aria-expanded="false" aria-controls="collapse-1">
+      aria-expanded="false" aria-controls="collapse-2">
     Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
 <div id="collapse-2" class="collapse mt-2 overflow-hidden">
