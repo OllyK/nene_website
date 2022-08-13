@@ -14,11 +14,11 @@ template: base.html
 Protein Structures in the RCSB Protein Data Bank
 </h2>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
-      data-bs-toggle="collapse" data-bs-target="#collapse-1"
-      aria-expanded="false" aria-controls="collapse-1">
+      data-bs-toggle="collapse" data-bs-target="#collapse-99"
+      aria-expanded="false" aria-controls="collapse-99">
     Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
-<div id="collapse-1" class="collapse mt-2 overflow-hidden">
+<div id="collapse-99" class="collapse mt-2 overflow-hidden">
 <p> These are the novel protein structures that I've contributed to through doing one or a combination of these things: expressing, purifying, crystallising, finding ligands for co-crystallisation, collecting data or solving and refining the structure.
 </p>
  
@@ -69,11 +69,11 @@ Protein Structures in the RCSB Protein Data Bank
 Research Papers
 </h2>
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
-      data-bs-toggle="collapse" data-bs-target="#collapse-2"
-      aria-expanded="false" aria-controls="collapse-2">
+      data-bs-toggle="collapse" data-bs-target="#collapse-98"
+      aria-expanded="false" aria-controls="collapse-98">
     Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
-<div id="collapse-2" class="collapse mt-2 overflow-hidden">
+<div id="collapse-98" class="collapse mt-2 overflow-hidden">
 
 <h4> This list, currently under construction, gives details of my contributions to published research papers. 
 </h4>
