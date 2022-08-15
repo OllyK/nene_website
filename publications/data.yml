@@ -86,6 +86,19 @@ structures:
 
 papers:
 
+  - title: "Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches"
+    year: 2010
+    doi: 10.1021/jm901680b
+    authors: Rose NR, Woon EC, Kingham GL, King ON, Mecinović J, Clifton IJ, Ng SS, Talib-Hardy J, Oppermann U, McDonough MA, and Schofield CJ.
+    journal: Journal of Medicinal Chemistry
+    openaccess: true
+    abstract: |
+      Ferrous ion and 2-oxoglutarate (2OG) oxygenases catalyze the demethylation of Nε-methylated lysine residues in histones. Here we report studies on the inhibition of the JMJD2 subfamily of histone demethylases, employing binding analyses by nondenaturing mass spectrometry (MS), dynamic combinatorial chemistry coupled to MS, turnover assays, and crystallography. The results of initial binding and inhibition assays directed the production and analysis of a set of N-oxalyl-d-tyrosine derivatives to explore the extent of a subpocket at the JMJD2 active site. Some of the inhibitors were shown to be selective for JMJD2 over the hypoxia-inducible factor prolyl hydroxylase PHD2. A crystal structure of JMJD2A in complex with one of the potent inhibitors was obtained; modeling other inhibitors based on this structure predicts interactions that enable improved inhibition for some compounds.
+    citation: |
+      "Nathan R. Rose, Esther C. Y. Woon, Guy L. Kingham, Oliver N. F. King, Jasmin Mecinović, Ian J. Clifton, Stanley S. Ng, Jobina Talib-Hardy, Udo Oppermann, Michael A. McDonough, and Christopher J. Schofield. Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches. Journal of Medicinal Chemistry 2010 53 (4), 1810-1818. https://doi.org/10.1021/jm901680b"
+
+  
+  
   - title: Large Scale Structural Analysis of the Classical Human Protein Tyrosine Phosphatome
     year: 2009
     doi: 10.1016/j.cell.2008.11.038
@@ -95,4 +108,4 @@ papers:
     abstract: |
       Protein tyrosine phosphatases (PTPs) play a critical role in regulating cellular functions by selectively dephosphorylating their substrates. Here we present 22 human PTP crystal structures that, together with prior structural knowledge, enable a comprehensive analysis of the classical PTP family. Despite their largely conserved fold, surface properties of PTPs are strikingly diverse. A potential secondary substrate-binding pocket is frequently found in phosphatases, and this has implications for both substrate recognition and development of selective inhibitors. Structural comparison identified four diverse catalytic loop (WPD) conformations and suggested a mechanism for loop closure. Enzymatic assays revealed vast differences in PTP catalytic activity and identified PTPD1, PTPD2, and HDPTP as catalytically inert protein phosphatases. We propose a “head-to-toe” dimerization model for RPTPγ/ζ that is distinct from the “inhibitory wedge” model and that provides a molecular basis for inhibitory regulation. This phosphatome resource gives an expanded insight into intrafamily PTP diversity, catalytic activity, substrate recognition, and autoregulatory self-association.
     citation: |
-      Barr AJ, Ugochukwu E, Lee WH, King ON, Filippakopoulos P, Alfano I, Savitsky P, Burgess-Brown NA, Müller S, Knapp S. Large-scale structural analysis of the classical human protein tyrosine phosphatome. Cell. 2009 Jan 23;136(2):352-63. doi: 10.1016/j.cell.2008.11.038.
+      Barr AJ, Ugochukwu E, Lee WH, King ON, Filippakopoulos P, Alfano I, Savitsky P, Burgess-Brown NA, Müller S, Knapp S. Large-scale structural analysis of the classical human protein tyrosine phosphatome. Cell. 2009 Jan 23;136(2),352-63. https://doi.org/10.1016/j.cell.2008.11.038.
