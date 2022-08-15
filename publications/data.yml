@@ -86,6 +86,19 @@ structures:
 
 papers:
 
+  - title: Development of homogeneous luminescence assays for histone demethylase catalysis and binding. 
+    year: 2010
+    doi: 10.1016/j.ab.2010.04.030
+    authors: Kawamura A, Tumber A, Rose NR, King ON, Daniel M, Oppermann U, Heightman TD and Schofield CJ
+    journal: Analytical Biochemistry
+    openaccess: false
+    pdf: /pdf/emss-66189.pdf
+    abstract: |
+      Covalent modifications to histones play important roles in chromatin dynamics and the regulation of gene expression. The JumonjiC (JmjC)-containing histone demethylases (HDMs) catalyze the demethylation of methylated lysine residues on histone tails. Here we report the development of homogeneous luminescence-based assay methods for measuring the catalytic activity and the binding affinities of peptides to HDMs. The assays use amplified luminescent proximity homogeneous assay (ALPHA) technology, are sensitive and robust, and can be used for small molecule inhibitor screening of HDMs. We have profiled known inhibitors of JMJD2E and demonstrate a correlation between the inhibitor potencies determined by the ALPHA and other types of assays. Although this study focuses on the JMJD2E isoform, the catalytic turnover and binding assays described here can be used in studies on other HDMs. The assays should be useful for the development of small molecule inhibitors selective for HDM isoforms.
+    citation: |
+      Kawamura A, Tumber A, Rose NR, King ON, Daniel M, Oppermann U, Heightman TD, Schofield C. Development of homogeneous luminescence assays for histone demethylase catalysis and binding. Anal Biochem. 2010 Sep 1;404(1):86-93. doi: https://doi.org/10.1016/j.ab.2010.04.030.
+
+
   - title: "Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches"
     year: 2010
     doi: 10.1021/jm901680b
@@ -95,7 +108,7 @@ papers:
     abstract: |
       Ferrous ion and 2-oxoglutarate (2OG) oxygenases catalyze the demethylation of Nε-methylated lysine residues in histones. Here we report studies on the inhibition of the JMJD2 subfamily of histone demethylases, employing binding analyses by nondenaturing mass spectrometry (MS), dynamic combinatorial chemistry coupled to MS, turnover assays, and crystallography. The results of initial binding and inhibition assays directed the production and analysis of a set of N-oxalyl-d-tyrosine derivatives to explore the extent of a subpocket at the JMJD2 active site. Some of the inhibitors were shown to be selective for JMJD2 over the hypoxia-inducible factor prolyl hydroxylase PHD2. A crystal structure of JMJD2A in complex with one of the potent inhibitors was obtained; modeling other inhibitors based on this structure predicts interactions that enable improved inhibition for some compounds.
     citation: |
-      "Nathan R. Rose, Esther C. Y. Woon, Guy L. Kingham, Oliver N. F. King, Jasmin Mecinović, Ian J. Clifton, Stanley S. Ng, Jobina Talib-Hardy, Udo Oppermann, Michael A. McDonough, and Christopher J. Schofield. Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches. Journal of Medicinal Chemistry 2010 53 (4), 1810-1818. https://doi.org/10.1021/jm901680b"
+      Nathan R. Rose, Esther C. Y. Woon, Guy L. Kingham, Oliver N. F. King, Jasmin Mecinović, Ian J. Clifton, Stanley S. Ng, Jobina Talib-Hardy, Udo Oppermann, Michael A. McDonough, and Christopher J. Schofield. Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches. Journal of Medicinal Chemistry 2010 53 (4), 1810-1818. https://doi.org/10.1021/jm901680b
 
   
   

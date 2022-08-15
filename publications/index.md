@@ -119,7 +119,7 @@ Research Papers
   <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#collapse-{{ id }}"
       aria-expanded="false" aria-controls="collapse-{{ id }}">
-    Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
+    More info <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
   </button>
   {{ macros.button_link(pdf, "PDF", type="btn-primary", icon="fa fa-file-pdf") }}
   {%- if paper.data is defined %}
