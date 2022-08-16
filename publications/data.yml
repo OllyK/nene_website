@@ -86,10 +86,21 @@ structures:
 
 papers:
 
+  - title: Quantitative high-throughput screening identifies 8-hydroxyquinolines as cell-active histone demethylase inhibitors
+    year: 2010
+    doi: 10.1371/journal.pone.0015535
+    authors: King ON, Li XS, Sakurai M, Kawamura A, Rose NR, Ng SS, Quinn AM, Rai G, Mott BT, Beswick P, Klose RJ, Oppermann U, Jadhav A, Heightman TD, Maloney DJ, Schofield CJ and Simeonov A.
+    journal: PLoS One
+    openaccess: true
+    abstract: |
+      Background: Small molecule modulators of epigenetic processes are currently sought as basic probes for biochemical mechanisms, and as starting points for development of therapeutic agents. N(ε)-Methylation of lysine residues on histone tails is one of a number of post-translational modifications that together enable transcriptional regulation. Histone lysine demethylases antagonize the action of histone methyltransferases in a site- and methylation state-specific manner. N(ε)-Methyllysine demethylases that use 2-oxoglutarate as co-factor are associated with diverse human diseases, including cancer, inflammation and X-linked mental retardation; they are proposed as targets for the therapeutic modulation of transcription. There are few reports on the identification of templates that are amenable to development as potent inhibitors in vivo and large diverse collections have yet to be exploited for the discovery of demethylase inhibitors. Principal findings: High-throughput screening of a ∼236,000-member collection of diverse molecules arrayed as dilution series was used to identify inhibitors of the JMJD2 (KDM4) family of 2-oxoglutarate-dependent histone demethylases. Initial screening hits were prioritized by a combination of cheminformatics, counterscreening using a coupled assay enzyme, and orthogonal confirmatory detection of inhibition by mass spectrometric assays. Follow-up studies were carried out on one of the series identified, 8-hydroxyquinolines, which were shown by crystallographic analyses to inhibit by binding to the active site Fe(II) and to modulate demethylation at the H3K9 locus in a cell-based assay. Conclusions: These studies demonstrate that diverse compound screening can yield novel inhibitors of 2OG dependent histone demethylases and provide starting points for the development of potent and selective agents to interrogate epigenetic regulation.
+    citation: |
+      King ON, Li XS, Sakurai M, Kawamura A, Rose NR, Ng SS, Quinn AM, Rai G, Mott BT, Beswick P, Klose RJ, Oppermann U, Jadhav A, Heightman TD, Maloney DJ, Schofield CJ, Simeonov A. Quantitative high-throughput screening identifies 8-hydroxyquinolines as cell-active histone demethylase inhibitors. PLoS One. 2010 Nov 23;5(11):e15535. doi:  https://doi.org/10.1371/journal.pone.0015535.
+
   - title: Development of homogeneous luminescence assays for histone demethylase catalysis and binding. 
     year: 2010
     doi: 10.1016/j.ab.2010.04.030
-    authors: Kawamura A, Tumber A, Rose NR, King ON, Daniel M, Oppermann U, Heightman TD and Schofield CJ
+    authors: Kawamura A, Tumber A, Rose NR, King ON, Daniel M, Oppermann U, Heightman TD and Schofield CJ.
     journal: Analytical Biochemistry
     openaccess: false
     pdf: /pdf/emss-66189.pdf
