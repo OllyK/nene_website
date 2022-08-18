@@ -86,10 +86,79 @@ structures:
 
 papers:
 
+  #  - title: 
+  #   year: 
+  #   doi: 
+  #   authors: 
+  #   journal: 
+  #   openaccess: true
+  #   abstract: |
+
+  #   citation: |
+  #      https://doi.org/
+
+  - title: Inhibition of 2-oxoglutarate dependent oxygenases
+    year: 2011
+    doi: 10.1039/c0cs00203h
+    authors: Rose NR, McDonough MA, King ON, Kawamura A and Schofield CJ.
+    journal: Chemical Society Reviews
+    openaccess: false
+    pdf: /pdf/Chem_Soc_Rev.pdf
+    abstract: |
+      2-Oxoglutarate (2OG) dependent oxygenases are ubiquitous iron enzymes that couple substrate oxidation to the conversion of 2OG to succinate and carbon dioxide. In humans their roles include collagen biosynthesis, fatty acid metabolism, DNA repair, RNA and chromatin modifications, and hypoxic sensing. Commercial applications of 2OG oxygenase inhibitors began with plant growth retardants, and now extend to a clinically used pharmaceutical compound for cardioprotection. Several 2OG oxygenases are now being targeted for therapeutic intervention for diseases including anaemia, inflammation and cancer. In this critical review, we describe studies on the inhibition of 2OG oxygenases, focusing on small molecules, and discuss the potential of 2OG oxygenases as therapeutic targets (295 references).
+    citation: |
+       Rose NR, McDonough MA, King ON, Kawamura A, Schofield CJ. Inhibition of 2-oxoglutarate dependent oxygenases. Chem Soc Rev. 2011 Aug;40(8):4364-97. doi: https://doi.org/10.1039/c0cs00203h. Epub 2011 Mar 10.
+
+  - title: The oncometabolite 2-hydroxyglutarate inhibits histone lysine demethylases
+    year: 2011
+    doi: 10.1038/embor.2011.43
+    authors: Chowdhury R, Yeoh KK, Tian YM, Hillringhaus L, Bagg EA, Rose NR, Leung IK, Li XS, Woon EC, Yang M, McDonough MA, King ON, Clifton IJ, Klose RJ, Claridge TD, Ratcliffe PJ, Schofield CJ and Kawamura A. 
+    journal: EMBO Reports
+    openaccess: true
+    abstract: |
+      Mutations in isocitrate dehydrogenases (IDHs) have a gain-of-function effect leading to R(−)-2-hydroxyglutarate (R-2HG) accumulation. By using biochemical, structural and cellular assays, we show that either or both R- and S-2HG inhibit 2-oxoglutarate (2OG)-dependent oxygenases with varying potencies. Half-maximal inhibitory concentration (IC50) values for the R-form of 2HG varied from approximately 25 μM for the histone Nε-lysine demethylase JMJD2A to more than 5 mM for the hypoxia-inducible factor (HIF) prolyl hydroxylase. The results indicate that candidate oncogenic pathways in IDH-associated malignancy should include those that are regulated by other 2OG oxygenases than HIF hydroxylases, in particular those involving the regulation of histone methylation.
+    citation: |
+       Chowdhury R, Yeoh KK, Tian YM, Hillringhaus L, Bagg EA, Rose NR, Leung IK, Li XS, Woon EC, Yang M, McDonough MA, King ON, Clifton IJ, Klose RJ, Claridge TD, Ratcliffe PJ, Schofield CJ, Kawamura A. The oncometabolite 2-hydroxyglutarate inhibits histone lysine demethylases. EMBO Rep. 2011 May;12(5):463-9. doi: https://doi.org/10.1038/embor.2011.43. Epub 2011 Apr 1.
+
+  - title: Inhibition of histone demethylases by 4-carboxy-2,2'-bipyridyl compounds
+    year: 2011
+    doi: 10.1002/cmdc.201100026
+    authors: Chang KH*, King ON*, Tumber A*, Woon EC, Heightman TD, McDonough MA, Schofield CJ and Rose NR. 
+    journal: ChemMedChem
+    openaccess: false
+    pdf: /pdf/emss-66234.pdf
+    abstract: |
+      Exploiting epigenetics: 2-Oxoglutarate (2OG)-dependent histone lysine demethylases, such as JMJD2E, are potential therapeutic targets in a range of diseases. Through structure–activity relationship studies and analyses, we identified a potent 4-carboxy-2,2′-bipyridyl compound, which inhibits JMJD2E with an IC50 value of 110 nM, representing a 66-fold improvement over the lead compound. These bipyridyl derivatives bind in the 2-oxoglutarate binding site.
+    citation: |
+       Chang KH, King ONF, Tumber A, Woon ECY, Heightman TD, McDonough MA, Schofield CJ, Rose NR. Inhibition of histone demethylases by 4-carboxy-2,2'-bipyridyl compounds. ChemMedChem. 2011 May 2;6(5):759-764. doi:  https://doi.org/10.1002/cmdc.201100026. Epub 2011 Mar 15.
+
+  - title: A prominent β-hairpin structure in the winged-helix domain of RECQ1 is required for DNA unwinding and oligomer formation
+    year: 2011
+    doi: 10.1093/nar/gkq1031
+    authors: Lucic B, Zhang Y, King O, Mendoza-Maldonado R, Berti M, Niesen FH, Burgess-Brown NA, Pike AC, Cooper CD, Gileadi O and Vindigni A. 
+    journal: Nucleic Acids Research
+    openaccess: true
+    abstract: |
+      RecQ helicases have attracted considerable interest in recent years due to their role in the suppression of genome instability and human diseases. These atypical helicases exert their function by resolving a number of highly specific DNA structures. The crystal structure of a truncated catalytic core of the human RECQ1 helicase (RECQ1 49–616 ) shows a prominent β-hairpin, with an aromatic residue (Y564) at the tip, located in the C-terminal winged-helix domain. Here, we show that the β-hairpin is required for the DNA unwinding and Holliday junction (HJ) resolution activity of full-length RECQ1, confirming that it represents an important determinant for the distinct substrate specificity of the five human RecQ helicases. In addition, we found that the β-hairpin is required for dimer formation in RECQ1 49–616 and tetramer formation in full-length RECQ1. We confirmed the presence of stable RECQ1 49–616 dimers in solution and demonstrated that dimer formation favours DNA unwinding; even though RECQ1 monomers are still active. Tetramers are instead necessary for more specialized activities such as HJ resolution and strand annealing. Interestingly, two independent protein–protein contacts are required for tetramer formation, one involves the β-hairpin and the other the N-terminus of RECQ1, suggesting a non-hierarchical mechanism of tetramer assembly.
+    citation: |
+       Lucic B, Zhang Y, King O, Mendoza-Maldonado R, Berti M, Niesen FH, Burgess-Brown NA, Pike AC, Cooper CD, Gileadi O, Vindigni A. A prominent β-hairpin structure in the winged-helix domain of RECQ1 is required for DNA unwinding and oligomer formation. Nucleic Acids Res. 2011 Mar;39(5):1703-17. doi: https://doi.org/10.1093/nar/gkq1031.
+
+
+  - title: Specific CLK inhibitors from a novel chemotype for regulation of alternative splicing
+    year: 2011
+    doi: 10.1016/j.chembiol.2010.11.009
+    authors: Fedorov O, Huber K, Eisenreich A, Filippakopoulos P, King O, Bullock AN, Szklarczyk D, Jensen LJ, Fabbro D, Trappe J, Rauch U, Bracher F and Knapp S.
+    journal: Chemistry & Biology
+    openaccess: true
+    abstract: |
+      There is a growing recognition of the importance of protein kinases in the control of alternative splicing. To define the underlying regulatory mechanisms, highly selective inhibitors are needed. Here, we report the discovery and characterization of the dichloroindolyl enaminonitrile KH-CB19, a potent and highly specific inhibitor of the CDC2-like kinase isoforms 1 and 4 (CLK1/CLK4). Co-crystal structures of KH-CB19 with CLK1 and CLK3 revealed a non-ATP mimetic binding mode, conformational changes in helix αC and the phosphate binding loop and halogen bonding to the kinase hinge region. KH-CB19 effectively suppressed phosphorylation of SR (serine/arginine) proteins in cells, consistent with its expected mechanism of action. Chemical inhibition of CLK1/CLK4 generated a unique pattern of splicing factor dephosphorylation and had at low nM concentration a profound effect on splicing of the two tissue factor isoforms flTF (full-length TF) and asHTF (alternatively spliced human TF).
+    citation: |
+      Fedorov O, Huber K, Eisenreich A, Filippakopoulos P, King O, Bullock AN, Szklarczyk D, Jensen LJ, Fabbro D, Trappe J, Rauch U, Bracher F, Knapp S. Specific CLK inhibitors from a novel chemotype for regulation of alternative splicing. Chem Biol. 2011 Jan 28;18(1):67-76. doi: https://doi.org/10.1016/j.chembiol.2010.11.009.
+
   - title: Quantitative high-throughput screening identifies 8-hydroxyquinolines as cell-active histone demethylase inhibitors
     year: 2010
     doi: 10.1371/journal.pone.0015535
-    authors: King ON, Li XS, Sakurai M, Kawamura A, Rose NR, Ng SS, Quinn AM, Rai G, Mott BT, Beswick P, Klose RJ, Oppermann U, Jadhav A, Heightman TD, Maloney DJ, Schofield CJ and Simeonov A.
+    authors: King ON*, Li XS*, Sakurai M*, Kawamura A, Rose NR, Ng SS, Quinn AM, Rai G, Mott BT, Beswick P, Klose RJ, Oppermann U, Jadhav A, Heightman TD, Maloney DJ, Schofield CJ and Simeonov A.
     journal: PLoS One
     openaccess: true
     abstract: |
@@ -109,7 +178,6 @@ papers:
     citation: |
       Kawamura A, Tumber A, Rose NR, King ON, Daniel M, Oppermann U, Heightman TD, Schofield C. Development of homogeneous luminescence assays for histone demethylase catalysis and binding. Anal Biochem. 2010 Sep 1;404(1):86-93. doi: https://doi.org/10.1016/j.ab.2010.04.030.
 
-
   - title: "Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches"
     year: 2010
     doi: 10.1021/jm901680b
@@ -121,8 +189,6 @@ papers:
     citation: |
       Nathan R. Rose, Esther C. Y. Woon, Guy L. Kingham, Oliver N. F. King, Jasmin Mecinović, Ian J. Clifton, Stanley S. Ng, Jobina Talib-Hardy, Udo Oppermann, Michael A. McDonough, and Christopher J. Schofield. Selective inhibitors of the JMJD2 histone demethylases: Combined nondenaturing mass spectrometric screening and crystallographic approaches. Journal of Medicinal Chemistry 2010 53 (4), 1810-1818. https://doi.org/10.1021/jm901680b
 
-  
-  
   - title: Large Scale Structural Analysis of the Classical Human Protein Tyrosine Phosphatome
     year: 2009
     doi: 10.1016/j.cell.2008.11.038
