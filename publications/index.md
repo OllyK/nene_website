@@ -16,7 +16,7 @@ Protein Structures in the RCSB Protein Data Bank
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#collapse-99"
       aria-expanded="false" aria-controls="collapse-99">
-    Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
+    See the table <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
 <div id="collapse-99" class="collapse mt-2 overflow-hidden">
 <p> These are the novel protein structures that I've contributed to through doing one or a combination of these things: expressing, purifying, crystallising, finding ligands for co-crystallisation, collecting data or solving and refining the structure.
@@ -71,7 +71,7 @@ Research Papers
 <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#collapse-98"
       aria-expanded="false" aria-controls="collapse-98">
-    Find out more <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
+    See the list <i class="fa fa-chevron-circle-down ms-1" aria-hidden="true"></i>
 </button>
 <div id="collapse-98" class="collapse mt-2 overflow-hidden">
 

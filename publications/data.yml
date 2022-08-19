@@ -97,6 +97,22 @@ papers:
   #   citation: |
   #      https://doi.org/
 
+  - title: The Cryptosporidium parvum kinome
+    year: 2011
+    doi: 10.1186/1471-2164-12-478
+    authors: Artz JD, Wernimont AK, Allali-Hassani A, Zhao Y, Amani M, Lin YH, Senisterra G, Wasney GA, Fedorov O, King O, Roos A, Lunin VV, Qiu W, Finerty P Jr, Hutchinson A, Chau I, von Delft F, MacKenzie F, Lew J, Kozieradzki I, Vedadi M, Schapira M, Zhang C, Shokat K, Heightman T and Hui R.
+    journal: BMC Genomics
+    openaccess: true
+    abstract: |
+      Background:
+      Hundreds of millions of people are infected with cryptosporidiosis annually, with immunocompromised individuals suffering debilitating symptoms and children in socioeconomically challenged regions at risk of repeated infections. There is currently no effective drug available. In order to facilitate the pursuit of anti-cryptosporidiosis targets and compounds, our study spans the classification of the Cryptosporidium parvum kinome and the structural and biochemical characterization of representatives from the CDPK family and a MAP kinase.
+      Results:
+      The C. parvum kinome comprises over 70 members, some of which may be promising drug targets. These C. parvum protein kinases include members in the AGC, Atypical, CaMK, CK1, CMGC, and TKL groups; however, almost 35% could only be classified as OPK (other protein kinases). In addition, about 25% of the kinases identified did not have any known orthologues outside of Cryptosporidium spp. Comparison of specific kinases with their Plasmodium falciparum and Toxoplasma gondii orthologues revealed some distinct characteristics within the C. parvum kinome, including potential targets and opportunities for drug design. Structural and biochemical analysis of 4 representatives of the CaMK group and a MAP kinase confirms features that may be exploited in inhibitor design. Indeed, screening Cp CDPK1 against a library of kinase inhibitors yielded a set of the pyrazolopyrimidine derivatives (PP1-derivatives) with IC50 values of < 10 nM. The binding of a PP1-derivative is further described by an inhibitor-bound crystal structure of Cp CDPK1. In addition, structural analysis of Cp CDPK4 identified an unprecedented Zn-finger within the CDPK kinase domain that may have implications for its regulation.
+      Conclusions:
+      Identification and comparison of the C. parvum protein kinases against other parasitic kinases shows how orthologue- and family-based research can be used to facilitate characterization of promising drug targets and the search for new drugs.
+    citation: |
+       Artz JD, Wernimont AK, Allali-Hassani A, Zhao Y, Amani M, Lin YH, Senisterra G, Wasney GA, Fedorov O, King O, Roos A, Lunin VV, Qiu W, Finerty P Jr, Hutchinson A, Chau I, von Delft F, MacKenzie F, Lew J, Kozieradzki I, Vedadi M, Schapira M, Zhang C, Shokat K, Heightman T, Hui R. The Cryptosporidium parvum kinome. BMC Genomics. 2011 Sep 30;12:478. doi: https://doi.org/10.1186/1471-2164-12-478.
+
   - title: Inhibition of 2-oxoglutarate dependent oxygenases
     year: 2011
     doi: 10.1039/c0cs00203h
