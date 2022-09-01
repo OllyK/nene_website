@@ -75,8 +75,6 @@ Research Papers
 </button>
 <div id="collapse-98" class="collapse mt-2 overflow-hidden">
 
-<h4> This list is currently under construction. 
-</h4>
 
 {%- for paper in page.papers %}
   {%- set id = loop.index %}
