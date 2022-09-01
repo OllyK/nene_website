@@ -82,10 +82,12 @@ Research Papers
   {%- set id = loop.index %}
   {%- if paper.doi is defined %}
     {%- set doi = paper.doi %}
-  {%- else %}
+  {%- elif paper.preprint is defined %}
     {%- set doi = paper.preprint %}
   {%- endif %}
-  {%- if paper.openaccess is defined and paper.openaccess %}
+  {%- if paper.openaccess is defined and not paper.doi is defined %}
+    {%- set pdf = paper.link %}
+  {%- elif paper.openaccess is defined and paper.openaccess and paper.doi is defined %}
     {%- set pdf = "https://doi.org/" ~ paper.doi %}
   {%- elif paper.preprint is defined %}
     {%- set pdf = "https://doi.org/" ~ paper.preprint %}
@@ -114,7 +116,9 @@ Research Papers
       </span>
     {%- endif %}
     {{ paper.journal }},
-    doi:<a target="_blank" href="https://doi.org/{{ doi }}">{{ doi }}</a>
+    {%- if paper.doi is defined %}
+      doi:<a target="_blank" href="https://doi.org/{{ doi }}">{{ doi }}</a>
+    {%- endif %}
   </p>
   <button class="btn btn-secondary btn-sm me-1 mb-2" type="button"
       data-bs-toggle="collapse" data-bs-target="#collapse-{{ id }}"
@@ -139,7 +143,9 @@ Research Papers
     <h3 class="fs-4">Cite as</h3>
     <blockquote class="mb-4">{{ paper.citation|trim }}</blockquote>
     <h3 class="fs-4 mb-4">Citations</h3>
+    {%- if paper.doi is defined %}
     <span class="__dimensions_badge_embed__" data-doi="{{ doi }}"></span>
+    {%- endif %}
   </div>
 </div>
 {%- endfor %}

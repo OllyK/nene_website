@@ -86,7 +86,7 @@ structures:
 
 papers:
 
-  #  - title: 
+  # - title: 
   #   year: 
   #   doi: 
   #   authors: 
@@ -96,6 +96,119 @@ papers:
 
   #   citation: |
   #      https://doi.org/
+
+  - title: "SuRVoS 2: Accelerating Annotation and Segmentation for Large Volumetric Bioimage Workflows Across Modalities and Scales"
+    year: 2022
+    doi:  10.3389/fcell.2022.842342
+    authors: Pennington, A., King, O.N.F., Tun, W.M., Ho, E.M.L., Luengo, I., Darrow, M.C., and Basham, M.
+
+    journal: Frontiers in Cell and Developmental Biology
+    openaccess: true
+    abstract: |
+      As sample preparation and imaging techniques have expanded and improved to include a variety of options for larger sized and numbers of samples, the bottleneck in volumetric imaging is now data analysis. Annotation and segmentation are both common, yet difficult, data analysis tasks which are required to bring meaning to the volumetric data. The SuRVoS application has been updated and redesigned to provide access to both manual and machine learning-based segmentation and annotation techniques, including support for crowd sourced data. Combining adjacent, similar voxels (supervoxels) provides a mechanism for speeding up segmentation both in the painting of annotation and by training a segmentation model on a small amount of annotation. The support for layers allows multiple datasets to be viewed and annotated together which, for example, enables the use of correlative data (e.g. crowd-sourced annotations or secondary imaging techniques) to guide segmentation. The ability to work with larger data on high-performance servers with GPUs has been added through a client-server architecture and the Pytorch-based image processing and segmentation server is flexible and extensible, and allows the implementation of deep learning-based segmentation modules. The client side has been built around Napari allowing integration of SuRVoS into an ecosystem for open-source image analysis while the server side has been built with cloud computing and extensibility through plugins in mind. Together these improvements to SuRVoS provide a platform for accelerating the annotation and segmentation of volumetric and correlative imaging data across modalities and scales.
+    citation: |
+        Pennington, A., King, O.N.F., Tun, W.M., Ho, E.M.L., Luengo, I., Darrow, M.C., and Basham, M. SuRVoS 2: Accelerating Annotation and Segmentation for Large Volumetric Bioimage Workflows Across Modalities and Scales. Frontiers in Cell and Developmental Biology. 2022 ;10:842342. DOI: https://doi.org/10.3389/fcell.2022.842342.
+
+  - title: "Beamline K11 DIAD: A new instrument for dual imaging and diffraction at Diamond Light Source"
+    year: 2021
+    doi: 10.1107/S1600577521009875
+    authors: Reinhard C, Drakopoulos M, Ahmed SI, Deyhle H, James A, Charlesworth CM, Burt M, Sutter J, Alexander S, Garland P, Yates T, Marshall R, Kemp B, Warrick E, Pueyos A, Bradnick B, Nagni M, Winter AD, Filik J, Basham M, Wadeson N, King ONF, Aslani N and Dent AJ.
+    journal: Journal of Synchrotron Radiation
+    openaccess: true
+    abstract: |
+      The Dual Imaging and Diffraction (DIAD) beamline at Diamond Light Source is a new dual-beam instrument for full-field imaging/tomography and powder diffraction. This instrument provides the user community with the capability to dynamically image 2D and 3D complex structures and perform phase identification and/or strain mapping using micro-diffraction. The aim is to enable in situ and in operando experiments that require spatially correlated results from both techniques, by providing measurements from the same specimen location quasi-simultaneously. Using an unusual optical layout, DIAD has two independent beams originating from one source that operate in the medium energy range (7-38 keV) and are combined at one sample position. Here, either radiography or tomography can be performed using monochromatic or pink beam, with a 1.4 mm × 1.2 mm field of view and a feature resolution of 1.2 µm. Micro-diffraction is possible with a variable beam size between 13 µm × 4 µm and 50 µm × 50 µm. One key functionality of the beamline is image-guided diffraction, a setup in which the micro-diffraction beam can be scanned over the complete area of the imaging field-of-view. This moving beam setup enables the collection of location-specific information about the phase composition and/or strains at any given position within the image/tomography field of view. The dual beam design allows fast switching between imaging and diffraction mode without the need of complicated and time-consuming mode switches. Real-time selection of areas of interest for diffraction measurements as well as the simultaneous collection of both imaging and diffraction data of (irreversible) in situ and in operando experiments are possible.
+    citation: |
+      Reinhard C, Drakopoulos M, Ahmed SI, Deyhle H, James A, Charlesworth CM, Burt M, Sutter J, Alexander S, Garland P, Yates T, Marshall R, Kemp B, Warrick E, Pueyos A, Bradnick B, Nagni M, Winter AD, Filik J, Basham M, Wadeson N, King ONF, Aslani N, Dent AJ. Beamline K11 DIAD: a new instrument for dual imaging and diffraction at Diamond Light Source. J Synchrotron Radiat. 2021 Nov 1;28(Pt 6):1985-1995. doi: https://doi.org/10.1107/S1600577521009875. Epub 2021 Oct 22.
+
+  - title: U-Net Segmentation Methods for Variable-Contrast XCT Images of Methane-Bearing Sand Using Small Training Datasets
+    year: 2021
+    preprint: 10.1002/essoar.10506807.2
+    authors: Alvarez-Borges, F.J., King, O.N.F., Madhusudhan, B.N., Connolley, T., Basham, M., and Ahmed, S.I. (2022). U-Net Segmentation Methods for Variable-Contrast XCT Images of Methane-Bearing Sand Using Small Training Datasets. https://doi.org/10.1002/essoar.10506807.2.
+    journal: Earth and Space Science Open Archive 
+    abstract: |
+      Methane (CH4) hydrate dissociation and CH4 release are potential geohazards currently investigated using X-ray computed tomography (XCT) imaging in laboratory experiments. Image segmentation constitutes an important data processing step for this type of research, but it is often time consuming, computing resource-intensive and operator-dependent. Furthermore, segmentation procedures are frequently tailored for each XCT dataset due to differences in image characteristics, such as greyscale contrast variations. To address these issues, an investigation has been carried out using U-Nets, a class of Convolutional Neural Network, to segment synchrotron radiation XCT (SRXCT) images of CH4-bearing sand during hydrate formation. Emphasis was given to CH4 gas bubbles, due to their paucity and low contrast. Three U-Net deployments previously untried for this task were assessed: (1) a bespoke 3D hierarchical method, (2) a 2D multi-label, multi-axis method and (3) RootPainter, an application that combines a 2D U-Net with interactive corrections. U-Nets were trained using very small hand-annotated datasets to reduce operator time. Results show high segmentation accuracy and consistency, with RootPainter slightly outperforming the alternative approaches and all three methods surpassing mainstream watershed and thresholding techniques. Greyscale contrast between material phases was found to affect segmentation performance, with the lowest metrics corresponding to data exhibiting the lowest contrast. Segmentation accuracy affected derived parameters such as CH4-saturation and porosity, but errors were small compared with gravimetric methods. It was also found that U-Net models trained on low greyscale contrast images could be used to segment higher-contrast datasets and also data collected at a different facility, thereby demonstrating model portability. Such portability is anticipated to be advantageous when the segmentation of large XCT datasets needs to be delivered over short timespans.
+    citation: |
+      Alvarez-Borges, F.J., King, O.N.F., Madhusudhan, B.N., Connolley, T., Basham, M., and Ahmed, S.I. (2022). U-Net Segmentation Methods for Variable-Contrast XCT Images of Methane-Bearing Sand Using Small Training Datasets. Earth and Space Science Open Archive. https://doi.org/10.1002/essoar.10506807.2.
+
+  - title: A massively multi-scale approach to characterising tissue architecture by synchrotron micro-CT applied to the human placenta
+    year: 2021
+    doi: 10.1098/rsif.2021.0140
+    authors: Tun WM, Poologasundarampillai G, Bischof H, Nye G, King ONF, Basham M, Tokudome Y, Lewis RM, Johnstone ED, Brownbill P, Darrow M and Chernyavsky IL.
+    journal: Journal of the Royal Society Interface
+    openaccess: true
+    abstract: |
+      Multi-scale structural assessment of biological soft tissue is challenging but essential to gain insight into structure–function relationships of tissue/organ. Using the human placenta as an example, this study brings together sophisticated sample preparation protocols, advanced imaging and robust, validated machine-learning segmentation techniques to provide the first massively multi-scale and multi-domain information that enables detailed morphological and functional analyses of both maternal and fetal placental domains. Finally, we quantify the scale-dependent error in morphological metrics of heterogeneous placental tissue, estimating the minimal tissue scale needed in extracting meaningful biological data. The developed protocol is beneficial for high-throughput investigation of structure–function relationships in both normal and diseased placentas, allowing us to optimize therapeutic approaches for pathological pregnancies. In addition, the methodology presented is applicable in the characterization of tissue architecture and physiological behaviours of other complex organs with similarity to the placenta, where an exchange barrier possesses circulating vascular and avascular fluid spaces.
+    citation: |
+      Tun WM, Poologasundarampillai G, Bischof H, Nye G, King ONF, Basham M, Tokudome Y, Lewis RM, Johnstone ED, Brownbill P, Darrow M, Chernyavsky IL. A massively multi-scale approach to characterizing tissue architecture by synchrotron micro-CT applied to the human placenta. J R Soc Interface. 2021 Jun;18(179):20210140. doi: https://doi.org/10.1098/rsif.2021.0140. Epub 2021 Jun 2.
+
+  - title: Non-competitive cyclic peptides for targeting enzyme-substrate complexes
+    year: 2018
+    doi: 10.1039/c8sc00286j
+    authors: McAllister TE, Yeh TL, Abboud MI, Leung IKH, Hookway ES, King ONF, Bhushan B, Williams ST, Hopkinson RJ, Münzel M, Loik ND, Chowdhury R, Oppermann U, Claridge TDW, Goto Y, Suga H, Schofield CJ and Kawamura A.
+    journal: Chemical Science
+    openaccess: true
+    abstract: |
+      Affinity reagents are of central importance for selectively identifying proteins and investigating their interactions. We report on the development and use of cyclic peptides, identified by mRNA display-based RaPID methodology, that are selective for, and tight binders of, the human hypoxia inducible factor prolyl hydroxylases (PHDs) – enzymes crucial in hypoxia sensing. Biophysical analyses reveal the cyclic peptides to bind in a distinct site, away from the enzyme active site pocket, enabling conservation of substrate binding and catalysis. A biotinylated cyclic peptide captures not only the PHDs, but also their primary substrate hypoxia inducible factor HIF1-α. Our work highlights the potential for tight, non-active site binding cyclic peptides to act as promising affinity reagents for studying protein–protein interactions.
+    citation: |
+      McAllister TE, Yeh TL, Abboud MI, Leung IKH, Hookway ES, King ONF, Bhushan B, Williams ST, Hopkinson RJ, Münzel M, Loik ND, Chowdhury R, Oppermann U, Claridge TDW, Goto Y, Suga H, Schofield CJ, Kawamura A. Non-competitive cyclic peptides for targeting enzyme-substrate complexes. Chem Sci. 2018 Apr 23;9(20):4569-4578. doi: https://doi.org/10.1039/c8sc00286j.
+
+  - title: Highly selective inhibition of histone demethylases by de novo macrocyclic peptides
+    year: 2017
+    doi: 10.1038/ncomms14773
+    authors: Kawamura A, Münzel M, Kojima T, Yapp C, Bhushan B, Goto Y, Tumber A, Katoh T, King ON, Passioura T, Walport LJ, Hatch SB, Madden S, Müller S, Brennan PE, Chowdhury R, Hopkinson RJ, Suga H and Schofield CJ.
+    journal: Nature Communications
+    openaccess: true
+    abstract: |
+      The JmjC histone demethylases (KDMs) are linked to tumour cell proliferation and are current cancer targets; however, very few highly selective inhibitors for these are available. Here we report cyclic peptide inhibitors of the KDM4A-C with selectivity over other KDMs/2OG oxygenases, including closely related KDM4D/E isoforms. Crystal structures and biochemical analyses of one of the inhibitors (CP2) with KDM4A reveals that CP2 binds differently to, but competes with, histone substrates in the active site. Substitution of the active site binding arginine of CP2 to N-ɛ-trimethyl-lysine or methylated arginine results in cyclic peptide substrates, indicating that KDM4s may act on non-histone substrates. Targeted modifications to CP2 based on crystallographic and mass spectrometry analyses results in variants with greater proteolytic robustness. Peptide dosing in cells manifests KDM4A target stabilization. Although further development is required to optimize cellular activity, the results reveal the feasibility of highly selective non-metal chelating, substrate-competitive inhibitors of the JmjC KDMs.
+    citation: |
+      Kawamura A, Münzel M, Kojima T, Yapp C, Bhushan B, Goto Y, Tumber A, Katoh T, King ON, Passioura T, Walport LJ, Hatch SB, Madden S, Müller S, Brennan PE, Chowdhury R, Hopkinson RJ, Suga H, Schofield CJ. Highly selective inhibition of histone demethylases by de novo macrocyclic peptides. Nat Commun 8, 14773 (2017). https://doi.org/10.1038/ncomms14773
+
+
+  - title: Pan-histone demethylase inhibitors simultaneously targeting Jumonji C and lysine-specific demethylases display high anticancer activities
+    year: 2014
+    doi: 10.1021/jm4012802
+    authors: Rotili D, Tomassi S, Conte M, Benedetti R, Tortorici M, Ciossani G, Valente S, Marrocco B, Labella D, Novellino E, Mattevi A, Altucci L, Tumber A, Yapp C, King ON, Hopkinson RJ, Kawamura A, Schofield CJ and Mai A.
+    journal: Journal of Medicinal Chemistry
+    openaccess: true
+    abstract: |
+      In prostate cancer, two different types of histone lysine demethylases (KDM), LSD1/KDM1 and JMJD2/KDM4, are coexpressed and colocalize with the androgen receptor. We designed and synthesized hybrid LSD1/JmjC or "pan-KDM" inhibitors 1-6 by coupling the skeleton of tranylcypromine 7, a known LSD1 inhibitor, with 4-carboxy-4'-carbomethoxy-2,2'-bipyridine 8 or 5-carboxy-8-hydroxyquinoline 9, two 2-oxoglutarate competitive templates developed for JmjC inhibition. Hybrid compounds 1-6 are able to simultaneously target both KDM families and have been validated as potential antitumor agents in cells. Among them, 2 and 3 increase H3K4 and H3K9 methylation levels in cells and cause growth arrest and substantial apoptosis in LNCaP prostate and HCT116 colon cancer cells. When tested in noncancer mesenchymal progenitor (MePR) cells, 2 and 3 induced little and no apoptosis, respectively, thus showing cancer-selective inhibiting action.
+    citation: |
+      Rotili D, Tomassi S, Conte M, Benedetti R, Tortorici M, Ciossani G, Valente S, Marrocco B, Labella D, Novellino E, Mattevi A, Altucci L, Tumber A, Yapp C, King ON, Hopkinson RJ, Kawamura A, Schofield CJ, Mai A. Pan-histone demethylase inhibitors simultaneously targeting Jumonji C and lysine-specific demethylases display high anticancer activities. J Med Chem. 2014 Jan 9;57(1):42-55. doi:  https://doi.org/10.1021/jm4012802.
+
+
+  - title: 5-Carboxy-8-hydroxyquinoline is a broad spectrum 2-oxoglutarate oxygenase inhibitor which causes iron translocation
+    year: 2013
+    doi: 10.1039/C3SC51122G
+    authors: Hopkinson RJ,  Tumber A, Yapp C, Chowdhury R, Aik WS, Che KH, Li XS, Kristensen JBL, King ONF, Chan MC, Yeoh KK, Choi H, Walport LJ, Thinnes CC, Bush JT, Lejeune C,  Rydzik AM, Rose NR,  Bagg EA, McDonough MA, Krojer, TJ, Yue WW, Ng SS, Olsen L, Brennan PE, Oppermann U, Muller S, Klose RJ, Ratcliffe PJ, Schofield CJ and Kawamura A. 
+    journal: Chemical Science
+    openaccess: true
+    abstract: |
+      2-Oxoglutarate and iron dependent oxygenases are therapeutic targets for human diseases. Using a representative 2OG oxygenase panel, we compare the inhibitory activities of 5-carboxy-8-hydroxyquinoline (IOX1) and 4-carboxy-8-hydroxyquinoline (4C8HQ) with that of two other commonly used 2OG oxygenase inhibitors, N-oxalylglycine (NOG) and 2,4-pyridinedicarboxylic acid (2,4-PDCA). The results reveal that IOX1 has a broad spectrum of activity, as demonstrated by the inhibition of transcription factor hydroxylases, representatives of all 2OG dependent histone demethylase subfamilies, nucleic acid demethylases and γ-butyrobetaine hydroxylase. Cellular assays show that, unlike NOG and 2,4-PDCA, IOX1 is active against both cytosolic and nuclear 2OG oxygenases without ester derivatisation. Unexpectedly, crystallographic studies on these oxygenases demonstrate that IOX1, but not 4C8HQ, can cause translocation of the active site metal, revealing a rare example of protein ligand-induced metal movement.
+    citation: |
+      Hopkinson RJ, Tumber A, Yapp C, Chowdhury R, Aik W, Che KH, Li XS, Kristensen JBL, King ONF, Chan MC, Yeoh KK, Choi H, Walport LJ, Thinnes CC, Bush JT, Lejeune C, Rydzik AM, Rose NR, Bagg EA, McDonough MA, Krojer T, Yue WW, Ng SS, Olsen L, Brennan PE, Oppermann U, Muller-Knapp S, Klose RJ, Ratcliffe PJ, Schofield CJ, Kawamura A. 5-Carboxy-8-hydroxyquinoline is a Broad Spectrum 2-Oxoglutarate Oxygenase Inhibitor which Causes Iron Translocation. Chem Sci. 2013 Aug 1;4(8):3110-3117. doi: https://doi.org/10.1039/C3SC51122G.
+
+
+  - title: Discovery of ML324, a JMJD2 demethylase inhibitor with demonstrated antiviral activity
+    year: 2012
+    link: https://www.ncbi.nlm.nih.gov/books/NBK169450/ 
+    authors: Rai G, Kawamura A, Tumber A, Liang Y, Vogel JL, Arbuckle JH, Rose NR, Dexheimer TS, Foley TL, King ON, Quinn A, Mott BT, Schofield CJ, Oppermann U, Jadhav A, Simeonov A, Kristie TM and Maloney DJ.
+    journal: Probe Reports from the NIH Molecular Libraries Program [Internet].
+    openaccess: true
+    abstract: |
+      A critical and dynamic epigenetic post-translational modification involves N(ε)-methylation of histone lysine residues by histone methyltransferases. This process was originally thought to be an irreversible epigenetic mark, yet two representative classes of histone lysine demethylases which reverse this process are LSD1/2 and the Jumonji domain containing proteins (JMJD) have emerged. Despite an increased interest in these enzymes as a result of their suspected role in a variety of diseases (e.g. cancer and virus infection), a dearth of potent and cell-permeable inhibitors of the JMJD2 enzymes remain. As such, we sought to discover novel small molecule inhibitors of the JMJD2 family of histone demethylases via a quantitative high throughput screen and subsequent medicinal chemistry optimization campaign. Herein, we describe the discovery and optimization of N-(3-(dimethyamino)propyl-4-(8-hydroxyquinolin-6-yl)benzamide, ML324, a probe molecule that displays submicromolar inhibitory activity toward JMJD2E (in vitro) and possesses excellent in vitro ADME properties. In contrast to previously reported inhibitors of the JMJD proteins, ML324 displays excellent cell permeability providing an opportunity for more extensive cell-based studies of JMJD2 enzymes to be undertaken. In addition, ML324 demonstrates potent anti-viral activity against both herpes simplex virus (HSV) and human cytomegalovirus (hCMV) infection via inhibition viral IE gene expression. ML324 suppresses the formation of HSV plaques, even at high MOI, and blocks HSV-1 reactivation in a mouse ganglia explant model of latently infected mice. The studies described herein provide the basis for the use of JMJD2 inhibitors in proof-of-concept animal models for treatment of herpes virus infections and recurrence.
+    citation: |
+      Rai G, Kawamura A, Tumber A, Liang Y, Vogel JL, Arbuckle JH, Rose NR, Dexheimer TS, Foley TL, King ON, Quinn A, Mott BT, Schofield CJ, Oppermann U, Jadhav A, Simeonov A, Kristie TM, Maloney DJ. Discovery of ML324, a JMJD2 demethylase inhibitor with demonstrated antiviral activity. 2012 Dec 17 [updated 2013 Sep 16]. In: Probe Reports from the NIH Molecular Libraries Program [Internet]. Bethesda (MD): National Center for Biotechnology Information (US); 2010–.
+
+  - title: Plant growth regulator daminozide is a selective inhibitor of human KDM2/7 histone demethylases
+    year: 2012
+    doi: 10.1021/jm300677j
+    authors: Rose NR, Woon EC, Tumber A, Walport LJ, Chowdhury R, Li XS, King ON, Lejeune C, Ng SS, Krojer T, Chan MC, Rydzik AM, Hopkinson RJ, Che KH, Daniel M, Strain-Damerell C, Gileadi C, Kochan G, Leung IK, Dunford J, Yeoh KK, Ratcliffe PJ, Burgess-Brown N, von Delft F, Muller S, Marsden B, Brennan PE, McDonough MA, Oppermann U, Klose RJ, Schofield CJ and Kawamura A.
+    journal: Journal of Medicinal Chemistry
+    openaccess: true
+    abstract: |
+      The JmjC oxygenases catalyse the N-demethylation of Nε-methyl lysine residues in histones and are current therapeutic targets. A set of 2-oxoglutarate analogues were screened using a unified assay platform for JmjC demethylases and related oxygenases. Results led to the finding that daminozide (N-(dimethylamino)succinamic acid, 160 Da), a plant growth regulator, selectively inhibits the KDM2/7 JmjC subfamily. Kinetic and crystallographic studies reveal daminozide chelates the active site metal via its hydrazide carbonyl and dimethylamino groups.
+    citation: |
+      Rose NR, Woon EC, Tumber A, Walport LJ, Chowdhury R, Li XS, King ON, Lejeune C, Ng SS, Krojer T, Chan MC, Rydzik AM, Hopkinson RJ, Che KH, Daniel M, Strain-Damerell C, Gileadi C, Kochan G, Leung IK, Dunford J, Yeoh KK, Ratcliffe PJ, Burgess-Brown N, von Delft F, Muller S, Marsden B, Brennan PE, McDonough MA, Oppermann U, Klose RJ, Schofield CJ, Kawamura A. Plant growth regulator daminozide is a selective inhibitor of human KDM2/7 histone demethylases. J Med Chem. 2012 Jul 26;55(14):6639-43. doi: https://doi.org/10.1021/jm300677j. Epub 2012 Jul 11.
 
   - title: The Cryptosporidium parvum kinome
     year: 2011
@@ -111,7 +224,7 @@ papers:
       Conclusions:
       Identification and comparison of the C. parvum protein kinases against other parasitic kinases shows how orthologue- and family-based research can be used to facilitate characterization of promising drug targets and the search for new drugs.
     citation: |
-       Artz JD, Wernimont AK, Allali-Hassani A, Zhao Y, Amani M, Lin YH, Senisterra G, Wasney GA, Fedorov O, King O, Roos A, Lunin VV, Qiu W, Finerty P Jr, Hutchinson A, Chau I, von Delft F, MacKenzie F, Lew J, Kozieradzki I, Vedadi M, Schapira M, Zhang C, Shokat K, Heightman T, Hui R. The Cryptosporidium parvum kinome. BMC Genomics. 2011 Sep 30;12:478. doi: https://doi.org/10.1186/1471-2164-12-478.
+      Artz JD, Wernimont AK, Allali-Hassani A, Zhao Y, Amani M, Lin YH, Senisterra G, Wasney GA, Fedorov O, King O, Roos A, Lunin VV, Qiu W, Finerty P Jr, Hutchinson A, Chau I, von Delft F, MacKenzie F, Lew J, Kozieradzki I, Vedadi M, Schapira M, Zhang C, Shokat K, Heightman T, Hui R. The Cryptosporidium parvum kinome. BMC Genomics. 2011 Sep 30;12:478. doi: https://doi.org/10.1186/1471-2164-12-478.
 
   - title: Inhibition of 2-oxoglutarate dependent oxygenases
     year: 2011
@@ -123,7 +236,7 @@ papers:
     abstract: |
       2-Oxoglutarate (2OG) dependent oxygenases are ubiquitous iron enzymes that couple substrate oxidation to the conversion of 2OG to succinate and carbon dioxide. In humans their roles include collagen biosynthesis, fatty acid metabolism, DNA repair, RNA and chromatin modifications, and hypoxic sensing. Commercial applications of 2OG oxygenase inhibitors began with plant growth retardants, and now extend to a clinically used pharmaceutical compound for cardioprotection. Several 2OG oxygenases are now being targeted for therapeutic intervention for diseases including anaemia, inflammation and cancer. In this critical review, we describe studies on the inhibition of 2OG oxygenases, focusing on small molecules, and discuss the potential of 2OG oxygenases as therapeutic targets (295 references).
     citation: |
-       Rose NR, McDonough MA, King ON, Kawamura A, Schofield CJ. Inhibition of 2-oxoglutarate dependent oxygenases. Chem Soc Rev. 2011 Aug;40(8):4364-97. doi: https://doi.org/10.1039/c0cs00203h. Epub 2011 Mar 10.
+      Rose NR, McDonough MA, King ON, Kawamura A, Schofield CJ. Inhibition of 2-oxoglutarate dependent oxygenases. Chem Soc Rev. 2011 Aug;40(8):4364-97. doi: https://doi.org/10.1039/c0cs00203h. Epub 2011 Mar 10.
 
   - title: The oncometabolite 2-hydroxyglutarate inhibits histone lysine demethylases
     year: 2011
@@ -134,7 +247,7 @@ papers:
     abstract: |
       Mutations in isocitrate dehydrogenases (IDHs) have a gain-of-function effect leading to R(−)-2-hydroxyglutarate (R-2HG) accumulation. By using biochemical, structural and cellular assays, we show that either or both R- and S-2HG inhibit 2-oxoglutarate (2OG)-dependent oxygenases with varying potencies. Half-maximal inhibitory concentration (IC50) values for the R-form of 2HG varied from approximately 25 μM for the histone Nε-lysine demethylase JMJD2A to more than 5 mM for the hypoxia-inducible factor (HIF) prolyl hydroxylase. The results indicate that candidate oncogenic pathways in IDH-associated malignancy should include those that are regulated by other 2OG oxygenases than HIF hydroxylases, in particular those involving the regulation of histone methylation.
     citation: |
-       Chowdhury R, Yeoh KK, Tian YM, Hillringhaus L, Bagg EA, Rose NR, Leung IK, Li XS, Woon EC, Yang M, McDonough MA, King ON, Clifton IJ, Klose RJ, Claridge TD, Ratcliffe PJ, Schofield CJ, Kawamura A. The oncometabolite 2-hydroxyglutarate inhibits histone lysine demethylases. EMBO Rep. 2011 May;12(5):463-9. doi: https://doi.org/10.1038/embor.2011.43. Epub 2011 Apr 1.
+      Chowdhury R, Yeoh KK, Tian YM, Hillringhaus L, Bagg EA, Rose NR, Leung IK, Li XS, Woon EC, Yang M, McDonough MA, King ON, Clifton IJ, Klose RJ, Claridge TD, Ratcliffe PJ, Schofield CJ, Kawamura A. The oncometabolite 2-hydroxyglutarate inhibits histone lysine demethylases. EMBO Rep. 2011 May;12(5):463-9. doi: https://doi.org/10.1038/embor.2011.43. Epub 2011 Apr 1.
 
   - title: Inhibition of histone demethylases by 4-carboxy-2,2'-bipyridyl compounds
     year: 2011
@@ -146,7 +259,7 @@ papers:
     abstract: |
       Exploiting epigenetics: 2-Oxoglutarate (2OG)-dependent histone lysine demethylases, such as JMJD2E, are potential therapeutic targets in a range of diseases. Through structure–activity relationship studies and analyses, we identified a potent 4-carboxy-2,2′-bipyridyl compound, which inhibits JMJD2E with an IC50 value of 110 nM, representing a 66-fold improvement over the lead compound. These bipyridyl derivatives bind in the 2-oxoglutarate binding site.
     citation: |
-       Chang KH, King ONF, Tumber A, Woon ECY, Heightman TD, McDonough MA, Schofield CJ, Rose NR. Inhibition of histone demethylases by 4-carboxy-2,2'-bipyridyl compounds. ChemMedChem. 2011 May 2;6(5):759-764. doi:  https://doi.org/10.1002/cmdc.201100026. Epub 2011 Mar 15.
+      Chang KH, King ONF, Tumber A, Woon ECY, Heightman TD, McDonough MA, Schofield CJ, Rose NR. Inhibition of histone demethylases by 4-carboxy-2,2'-bipyridyl compounds. ChemMedChem. 2011 May 2;6(5):759-764. doi:  https://doi.org/10.1002/cmdc.201100026. Epub 2011 Mar 15.
 
   - title: A prominent β-hairpin structure in the winged-helix domain of RECQ1 is required for DNA unwinding and oligomer formation
     year: 2011
@@ -157,7 +270,7 @@ papers:
     abstract: |
       RecQ helicases have attracted considerable interest in recent years due to their role in the suppression of genome instability and human diseases. These atypical helicases exert their function by resolving a number of highly specific DNA structures. The crystal structure of a truncated catalytic core of the human RECQ1 helicase (RECQ1 49–616 ) shows a prominent β-hairpin, with an aromatic residue (Y564) at the tip, located in the C-terminal winged-helix domain. Here, we show that the β-hairpin is required for the DNA unwinding and Holliday junction (HJ) resolution activity of full-length RECQ1, confirming that it represents an important determinant for the distinct substrate specificity of the five human RecQ helicases. In addition, we found that the β-hairpin is required for dimer formation in RECQ1 49–616 and tetramer formation in full-length RECQ1. We confirmed the presence of stable RECQ1 49–616 dimers in solution and demonstrated that dimer formation favours DNA unwinding; even though RECQ1 monomers are still active. Tetramers are instead necessary for more specialized activities such as HJ resolution and strand annealing. Interestingly, two independent protein–protein contacts are required for tetramer formation, one involves the β-hairpin and the other the N-terminus of RECQ1, suggesting a non-hierarchical mechanism of tetramer assembly.
     citation: |
-       Lucic B, Zhang Y, King O, Mendoza-Maldonado R, Berti M, Niesen FH, Burgess-Brown NA, Pike AC, Cooper CD, Gileadi O, Vindigni A. A prominent β-hairpin structure in the winged-helix domain of RECQ1 is required for DNA unwinding and oligomer formation. Nucleic Acids Res. 2011 Mar;39(5):1703-17. doi: https://doi.org/10.1093/nar/gkq1031.
+      Lucic B, Zhang Y, King O, Mendoza-Maldonado R, Berti M, Niesen FH, Burgess-Brown NA, Pike AC, Cooper CD, Gileadi O, Vindigni A. A prominent β-hairpin structure in the winged-helix domain of RECQ1 is required for DNA unwinding and oligomer formation. Nucleic Acids Res. 2011 Mar;39(5):1703-17. doi: https://doi.org/10.1093/nar/gkq1031.
 
 
   - title: Specific CLK inhibitors from a novel chemotype for regulation of alternative splicing
