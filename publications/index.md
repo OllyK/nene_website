@@ -113,7 +113,9 @@ Research Papers
         preprint
       </span>
     {%- endif %}
-    {{ paper.journal }},
+    <b>
+    {{ paper.journal }}
+    </b>
     {%- if paper.doi is defined %}
       doi:<a target="_blank" href="https://doi.org/{{ doi }}">{{ doi }}</a>
     {%- endif %}

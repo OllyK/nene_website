@@ -17,7 +17,7 @@ template: base.html
 
 ### The short version
 
-* Research Software Engineer.
+* Research Software Engineer / Data Analysis Scientist.
 * Currently working on machine vision problems at [Diamond Light Source][dls-link], the UK's national synchrotron science facility.
 * Formerly a chemical biologist developing early-stage drugs for histone lysine [demethylase][demeth] enzymes - important epigenetic regulators of gene expression.
 * Contributor to the open-source [SuRVoS][surv1] and [SuRVoS2][surv2] applications that allow faster annotation and segmentation of 3D image data with the help of supervoxels, scribbles and machine learning.
