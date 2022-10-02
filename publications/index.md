@@ -1,6 +1,6 @@
 ---
 title: Publications
-banner_image: images/diffractometer_crop.jpg
+banner_image: images/diffractometer_hd_wide.jpg
 banner_position: top left
 banner_title: Publications
 banner_subtitle: A list of my academic publications

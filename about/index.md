@@ -1,6 +1,6 @@
 ---
 title: About
-banner_image: images/queenstown_crop.jpg
+banner_image: images/queenstown_hd_wide.jpg
 banner_position: top left
 banner_title: About me
 banner_subtitle: A bit more about me and my work

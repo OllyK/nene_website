@@ -1,6 +1,6 @@
 ---
 custom_page_title: Olly King
-banner_image: images/kepler_crop.jpg
+banner_image: images/kepler_hd_wide.jpg
 banner_title: 👋🏽 Hi! I'm Olly King
 banner_position: top right
 banner_subtitle: |
