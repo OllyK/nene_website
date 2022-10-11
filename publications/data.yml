@@ -97,6 +97,34 @@ papers:
   #   citation: |
   #      https://doi.org/
 
+  - title: "Volume Segmantics: A Python Package for Semantic Segmentation of Volumetric Data Using Pre-trained PyTorch Deep Learning Models"
+    year: 2022
+    doi: 10.21105/joss.04691
+    authors: King, O.N.F, Bellos, D. and Basham, M.
+    journal: Journal of Open Source Software
+    openaccess: true
+    abstract: |
+      Segmentation of 3-dimensional (3D, volumetric) images is a widely used technique that allows
+      interpretation and quantification of experimental data collected using a number of techniques
+      (for example, Computed Tomography (CT), Magnetic Resonance Imaging (MRI), Electron
+      Tomography (ET)). Although the idea of semantic segmentation is a relatively simple one,
+      giving each pixel a label that defines what it represents (e.g cranial bone versus brain tissue);
+      due to the subjective and laborious nature of the manual labelling task coupled with the huge
+      size of the data (multi-GB files containing billions of pixels) this process is often a bottleneck
+      in imaging workflows. In recent years, deep learning has brought models capable of fast and
+      accurate interpretation of image data into the toolbox available to scientists. These models
+      are often trained on large image datasets that have been annotated at great expense. In many
+      cases however, scientists working on novel samples and using new imaging techniques do not
+      yet have access to large stores of annotated data. To overcome this issue, simple software
+      tools that allow the scientific community to create segmentation models using relatively small
+      amounts of training data are required. Volume Segmantics is a Python package that provides
+      a command line interface (CLI) as well as an Application Programming Interface (API) for
+      training 2-dimensional (2D) PyTorch (Paszke et al., 2019) deep learning models on small
+      amounts of annotated 3D image data. The package also enables applying these models to
+      new (often much larger) 3D datasets to speed up the process of semantic segmentation.
+    citation: |
+      King, O.N.F., Bellos, D. and Basham, M (2022). Volume Segmantics: A Python Package for Semantic Segmentation of Volumetric Data Using Pre-trained PyTorch Deep Learning Models. Journal of Open Source Software, 7(78), 4691, https://doi.org/10.21105/joss.04691
+      
   - title: "SuRVoS 2: Accelerating Annotation and Segmentation for Large Volumetric Bioimage Workflows Across Modalities and Scales"
     year: 2022
     doi:  10.3389/fcell.2022.842342
