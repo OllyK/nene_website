@@ -12,15 +12,14 @@ template: base.html
 
 ## The slightly longer version
 
-I work as a Data Analysis Scientist in Machine Vision, working as part of the Data Analysis group at [Diamond Light Source][dls-link], South Oxfordshire, UK. 
-Before this, I worked in a product design start-up that specialised in the Internet of Things. My work there was a mixture of writing RESTful APIs in Python, setting up an end-to-end testing framework with integrated hardware, consulting on the feasibility of new IOT projects and researching potential new clients. 
-Prior to working in the startup I completed an MSc. degree in Computer Science 
+I work as an Application Scientist at Dotmatics where I configure our applications for clients who range from pharmaceutical companies to materials science processing sites.
+Previous to this, I worked as a Data Analysis Scientist in Machine Vision, working as part of the Data Analysis group at [Diamond Light Source][dls-link], South Oxfordshire, UK. 
+Prior to Diamond, I worked in a product design start-up that specialised in the Internet of Things. My work there was a mixture of writing RESTful APIs in Python, setting up an end-to-end testing framework with integrated hardware, consulting on the feasibility of new IOT projects and researching potential new clients. 
+Before working in the startup, I completed an MSc. degree in Computer Science 
 at the University of Bristol, which was a big change from my previous vocation 
 as a research scientist in Chemical Biology. 
 
-My current work makes use of deep learning, particularly convolutional neural networks, 
-to create tools that help scientists who work at Diamond as well as those who visit as
-facility users. One of the main areas is [segmentation][segment] of 3-dimensional image data such as that produced by [X-ray computed tomography][xray-ct] (XCT), [electron cryo-tomography][ect] (cryoET) or [serial block-face scanning electron microscopy][sbf] (SBF-SEM). In addition, I have created deep learning tools that aid scientists who are performing experiments where they aim to grow protein crystals. For example, detecting the location of these crystals is the first step in collecting in-situ data on a fully automated macromolecular crystallography (MX) beamline at Diamond, known as [VMXi][vmxi-link].
+My previous work at Diamond made use of deep learning, particularly convolutional neural networks, to create tools that help scientists who work at Diamond as well as those who visit as facility users. One of the main areas is [segmentation][segment] of 3-dimensional image data such as that produced by [X-ray computed tomography][xray-ct] (XCT), [electron cryo-tomography][ect] (cryoET) or [serial block-face scanning electron microscopy][sbf] (SBF-SEM). In addition, I have created deep learning tools that aid scientists who are performing experiments where they aim to grow protein crystals. For example, detecting the location of these crystals is the first step in collecting in-situ data on a fully automated macromolecular crystallography (MX) beamline at Diamond, known as [VMXi][vmxi-link].
 
 
 <section class="mb-5">
