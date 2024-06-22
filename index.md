@@ -18,10 +18,11 @@ template: base.html
 ### The short version
 
 * Research Software Engineer / Data Analysis Scientist / Application Scientist.
-* Currently working as an Application Scientist at Dotmatics.
-* Experience on machine vision problems at [Diamond Light Source][dls-link], the UK's national synchrotron science facility.
+* Currently working as a Senior Research Software Engineer at the University of Oxford.
 * Formerly a chemical biologist developing early-stage drugs for histone lysine [demethylase][demeth] enzymes - important epigenetic regulators of gene expression.
 * Contributor to the open-source [SuRVoS][surv1] and [SuRVoS2][surv2] applications that allow faster annotation and segmentation of 3D image data with the help of supervoxels, scribbles and machine learning.
+* Creator of [volume-segmantics][vol-seg] - a software package that allows fast training of a variety of 2D pre-trained segmentation networks on 3D image data. 
+* Trainer of the [CHiMP (Crystal Hits in My Plate)][chimp] deep learning tools. These help scientist to classify images of protein crystallisation experiments and to detect crystals in images for data collection. 
 * Amateur photographer and keen, albeit ageing, runner. 
 
 </div>
@@ -39,3 +40,5 @@ template: base.html
 [demeth]: https://en.wikipedia.org/wiki/Demethylase
 [surv1]: https://github.com/DiamondLightSource/SuRVoS
 [surv2]: https://github.com/DiamondLightSource/SuRVoS2
+[vol-seg]: https://joss.theoj.org/papers/10.21105/joss.04691
+[chimp]: https://www.biorxiv.org/content/10.1101/2024.05.22.595345v1

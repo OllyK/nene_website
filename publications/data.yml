@@ -97,6 +97,16 @@ papers:
   #   citation: |
   #      https://doi.org/
 
+  - title: CHiMP - Deep Learning Tools Trained on Protein Crystallisation Micrographs to Enable Automation of Experiments
+    year: 2024
+    preprint: 10.1101/2024.05.22.595345
+    authors: King, O.N.F., Levik, K.E., Sandy, J., and Basham, M.
+    journal: BioRxiv
+    abstract: |
+      A group of three deep learning tools, referred to collectively as CHiMP (Crystal Hits in My Plate) were created for analysis of micrographs of protein crystallisation experiments at the Diamond Light Source (DLS) synchrotron, UK. The first tool, a classification network, assigns images into categories relating to experimental outcomes. The other two tools are networks that perform both object detection and instance segmentation, resulting in masks of individual crystals in the first case, and masks of crystallisation droplets in addition to crystals in the second case, allowing positions and sizes of these entities to be recorded. Creation of these tools used transfer learning, where weights from a pre-trained deep learning network were used as a starting point and re-purposed by further training on a relatively small set of data. Two of the tools are now integrated at the VMXi macromolecular crystallography beamline at DLS where they absolve the need for any user input both for monitoring crystallisation experiments and for triggering in situ data collections. The third is being integrated into the XChem fragment-based drug discovery screening platform, also at DLS, to allow automatic targeting of acoustic compound dispensing into crystallisation droplets.
+    citation: |
+      King, O.N.F., Levik, K.E., Sandy, J., Basham, M. CHiMP - Deep Learning Tools Trained on Protein Crystallisation Micrographs to Enable Automation of Experiments. BioRxiv. 2024. doi: 10.1101/2024.05.22.595345. 
+
   - title: Online citizen science with the Zooniverse for analysis of biological volumetric data
     year: 2023
     doi: 10.1007/s00418-023-02204-6
