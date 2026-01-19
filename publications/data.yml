@@ -97,6 +97,16 @@ papers:
   #   citation: |
   #      https://doi.org/
 
+  - title: From Voxels to Viruses\: Using Deep Learning and Crowdsourcing to Understand a Virus Factory
+    year: 2024
+    doi: 10.5334/cstp.739
+    authors: Pennington, A., King, O.N.F., Tun, W.M., Boyce, M., Sutton, G., Stuart, D.I., Basham, M and Darrow, M.C. 
+    journal: Citizen Science\: Theory and Practice
+    abstract: |
+      Many bioimaging research projects require objects of interest to be identified, located, and then traced to allow quantitative measurement. Depending on the complexity of the system and imaging, instance segmentation is often done manually, and automated approaches still require weeks to months of an individual’s time to acquire the necessary training data for AI models. As such, there is a strong need to develop approaches for instance segmentation that minimize the use of expert annotation while maintaining quality on challenging image analysis problems. Herein, we present our work on a citizen science project we ran called Science Scribbler: Virus Factory on the Zooniverse platform, in which citizen scientists annotated a cryo-electron tomography volume by locating and categorising viruses using point-based annotations instead of manually drawing outlines. One crowdsourcing workflow produced a database of virus locations, and the other workflow produced a set of classifications of those locations. Together, this allowed mask annotation to be generated for training a deep learning–based segmentation model. From this model, segmentations were produced that allowed for measurements such as counts of the viruses by virus class. The application of citizen science–driven crowdsourcing to the generation of instance segmentations of volumetric bioimages is a step towards developing annotation-efficient segmentation workflows for bioimaging data. This approach aligns with the growing interest in citizen science initiatives that combine the collective intelligence of volunteers with AI to tackle complex problems while involving the public with research that is being undertaken in these important areas of science.
+    citation: |
+      Pennington, A., King, O.N.F., Tun, W.M., Boyce, M., Sutton, G., Stuart, D.I., Basham, M and Darrow, M.C. From Voxels to Viruses\: Using Deep Learning and Crowdsourcing to Understand a Virus Factory. Citizen Science\: Theory and Practice 2024. doi: 10.5334/cstp.739. 
+
   - title: CHiMP - Deep Learning Tools Trained on Protein Crystallisation Micrographs to Enable Automation of Experiments
     year: 2024
     doi: 10.1107/S2059798324009276
